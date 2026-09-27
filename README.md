@@ -46,5 +46,6 @@ Geleneksel hazır kütüphane yapılandırmalarının aksine, bu projede **hibri
 
 1. **Projeyi klonlayın:**
    ```bash
-   git clone [https://github.com/kullanici_adin/rag-dokuman-asistani.git](https://github.com/kullanici_adin/rag-dokuman-asistani.git)
+   git clone https://github.com/13yusuf/rag-dokuman-asistani.git
+   (https://github.com/kullanici_adin/rag-dokuman-asistani.git)
    cd rag-dokuman-asistani
