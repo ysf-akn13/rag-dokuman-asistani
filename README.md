@@ -49,3 +49,26 @@ Geleneksel hazır kütüphane yapılandırmalarının aksine, bu projede **hibri
    git clone https://github.com/13yusuf/rag-dokuman-asistani.git
    (https://github.com/kullanici_adin/rag-dokuman-asistani.git)
    cd rag-dokuman-asistani
+
+2. **Sanal ortam (Virtual Environment) oluşturun ve aktif edin:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+
+3. **macOS / Linux için:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+
+4. **Gerekli kütüphaneleri yükleyin:
+   ```bash
+   pip install -r requirements.txt
+
+5. **Ortam Değişkenini (API Key) Tanımlayın:
+Proje kök dizininde .env adında bir dosya oluşturun ve içerisine Gemini API anahtarınızı ekleyin:
+   ```bash
+   GOOGLE_API_KEY=buraya_gemini_api_anahtarinizi_yazin
+
+6. **Uygulamayı Çalıştırın:
+   ```bash
+   streamlit run app.py
